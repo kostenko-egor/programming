@@ -6,6 +6,64 @@
     <title>Document</title>
 </head>
 <body>
-    
+    <h1>яп JavaScript</h1>
+
+    <script>
+        // let str = "hello, \"world\"";
+        // console.log(str)
+
+        // let a,b;
+        // a = 16;
+        // b = 5;
+        // console.log(a%b);
+        // console.log(a/b);
+        // console.log(18/5)
+        // console.log(Math.round(18/5));
+        // console.log(Math.ceil(16/5));
+        // console.log(Math.floor(18/5));
+        
+        // a = 1;
+        // b = a++;
+        // console.log(a,b);
+        // a = 1;
+        // b = ++a;
+        // console.log(a,b);
+        // a = 1;
+        // b = a--;
+        // console.log(a,b);
+        // a = 1;
+        // b = --a;
+        // console.log(a,b);
+       
+        // let x1, x2, sum;
+        // x1 = parseFloat(prompt("в ведите первое число "));
+        // x2 = parseFloat(prompt("в ведите второе число "));
+
+        // sum = x1 + x2;
+
+        // alert("Сумма равна"+ sum);
+
+        // let numInFolder, numOnPage, numOfPages;
+        // numInFolder = parseInt(prompt("введите кол-во фото в папке",10));
+        // numOnPage= parseInt(prompt("Ввдите кол-во фото на одной странице",5))
+
+        // numOfPages = Math.ceil(numInFolder / numOnPage);
+
+        // alert("кол-во страниц " + numOfPages);
+
+        /*найти  6-значное число, найти сумму его цифр*/
+        let number, d1, d2, d3, d4, d5, d6;
+        number = parseInt(prompt("введите 6-значное"));
+        d1 = number % 10 // единицы
+        d2 = Math.floor(number / 10) %10; // десятки
+        d3 = Math.floor(number / 100) %10; //сотни 
+        d4 = Math.floor(number / 1000) %10; // тысячи
+        d5 = Math.floor(number / 10000) %10; // десятки тыс
+        d6 = Math.floor(number / 100000) %10; //сотни тыс
+        alert(d1+d2+d3+d4+d5+d6)
+
+
+    </script>
+
 </body>
 </html>
